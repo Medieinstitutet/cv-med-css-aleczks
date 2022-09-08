@@ -1,0 +1,24 @@
+h1,h2,h3 {
+    color: blanchedalmond;
+    
+}
+a {
+    color: blanchedalmond;
+}
+
+
+body {
+    background-color:rgb(39, 38, 38);
+}
+ul {
+    color: blanchedalmond;
+}
+header {
+    font-size: large;
+}
+#work, #education, #contact {
+    border: solid 3px;
+    border-color: antiquewhite;
+    border-radius: 0%;
+    
+}
