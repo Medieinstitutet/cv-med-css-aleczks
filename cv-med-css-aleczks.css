@@ -1,24 +1,46 @@
 h1,h2,h3 {
     color: blanchedalmond;
     
+    
 }
+ h1 {
+    position: relative;
+    left: 1rem;
+ }
+
 a {
-    color: blanchedalmond;
+    color: blanchedalmond; 
 }
 
 
 body {
     background-color:rgb(39, 38, 38);
+    background-image: url("cv-images/jakub.jpg");
+    background-size: cover;
+    
+
 }
+
+
 ul {
-    color: blanchedalmond;
+    color: whitesmoke;
+    list-style: circle;
 }
 header {
     font-size: large;
+    position: relative;
+    left: 1rem;
 }
-#work, #education, #contact {
-    border: solid 3px;
-    border-color: antiquewhite;
-    border-radius: 0%;
+.work .education .contact {
+    position: absolute;
+    border: 3px solid rgb(255, 69, 0);
     
+    
+    
+    
+}
+
+img {
+    position: relative;
+    left: 1rem;
 }
