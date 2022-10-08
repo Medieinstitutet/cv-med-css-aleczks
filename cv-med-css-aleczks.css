@@ -1,3 +1,4 @@
+
 h1,h2,h3 {
     color: blanchedalmond;
     
@@ -9,38 +10,76 @@ h1,h2,h3 {
  }
 
 a { 
-    color: blanchedalmond; 
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 
 body {
-    background-color:rgb(39, 38, 38);
-    background-image: url("cv-images/jakub.jpg");
+    background-color:rgb(3, 3, 3);
+    background-image: url(cv-images/white-flower-background.avif);
     background-size: cover;
-    
-
+    background-position: 50% 50%;
+    background-blend-mode: hard-light;
+}
+.container-fluid {
+    height: 30vh;
+    overflow: hidden;
 }
 
+.col {
+    
+    padding: 10px;
+    line-height: 0.4;
+}
+
+h2 {
+    padding: 20px;
+}
 
 ul {
     color: whitesmoke;
-    list-style: circle;
+    list-style: none;
 }
 header {
     font-size: large;
     position: relative;
     left: 1rem;
 }
-.work .education .contact {
-    position: absolute;
-    border: 3px solid rgb(255, 69, 0);
+.head {
+    border-bottom: 3px solid palevioletred;
+    border-top: 3px solid palevioletred;
+}
+.work {   
+    border: 3px solid pink;
+    width: 400px;
+    height: fit-content;
+    position: relative;
+    float: left;
+    
+}
+.education {
+    margin-top: 20px;
+    width: 400px;
+    height: fit-content;
+    position: relative;
+    border: 3px solid pink;
     
     
-    
-    
+}
+.contact {
+    border: 3px solid pink;
+    padding: 50px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    width: 30vw;
+    height: fit-content;
 }
 
 img {
     position: relative;
-    left: 1rem;
+    left: 3rem;
 }
+
