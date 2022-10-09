@@ -1,81 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: grid;
+    grid-template-columns: 33% 57%;
+    margin: 1rem;
+}
 
-h1,h2,h3 {
-    color: blanchedalmond;
-    
+.left-section {
+    background-color: rgba(119, 136, 153, 0.428);
+}
+
+
+
+h1 {
+    color: rgb(255, 119, 7);
+    font-weight: 200;   
+    position: relative;
+    left: 3rem;
+}
+hr {
+    background-color: rgb(255, 119, 7);
+    color: rgb(255, 119, 7);
+    opacity: 0.7;
     
 }
- h1 {
-    position: relative;
-    left: 1rem;
- }
+
+h2,h3 {
+    color: rgb(255, 119, 7);
+    font-weight: 200;
+   
+}
 
 a { 
-    color: black;
+    color: rgb(255, 119, 7);
     text-decoration: none;
     font-weight: bolder;
 }
-
+.fa-2x {
+    color: rgb(255, 119, 7);
+}
 
 body {
     background-color:rgb(3, 3, 3);
-    background-image: url(cv-images/white-flower-background.avif);
+    background-image: url(cv-images/blue.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-blend-mode: hard-light;
 }
-.container-fluid {
-    height: 30vh;
-    overflow: hidden;
-}
 
-.col {
-    
+.col {    
     padding: 10px;
-    line-height: 0.4;
-}
-
-h2 {
-    padding: 20px;
 }
 
 ul {
     color: whitesmoke;
     list-style: none;
-}
-header {
-    font-size: large;
-    position: relative;
-    left: 1rem;
-}
-.head {
-    border-bottom: 3px solid palevioletred;
-    border-top: 3px solid palevioletred;
-}
-.work {   
-    border: 3px solid pink;
-    width: 400px;
-    height: fit-content;
-    position: relative;
-    float: left;
     
 }
-.education {
-    margin-top: 20px;
-    width: 400px;
-    height: fit-content;
+.container {
     position: relative;
-    border: 3px solid pink;
-    
-    
 }
+
+.work .education {      
+    width: 400px;   
+}
+
 .contact {
-    border: 3px solid pink;
-    padding: 50px;
-    margin-top: 50px;
-    display: flex;
-    text-align: center;
-    width: 30vw;
-    height: fit-content;
+    position: relative;
+    left: 3rem;
+    width: 300px;
+    height: 300px;
+}
+.about-me {   
+    color: #fff;    
+    position: relative;
+    float: right;
+
+}
+
+.langueages {
+    color: #fff;
+    padding-left: 5%;
 }
 
 img {
@@ -83,3 +91,7 @@ img {
     left: 3rem;
 }
 
+.fa-language {
+    position: relative;
+    left: 2rem;
+}
