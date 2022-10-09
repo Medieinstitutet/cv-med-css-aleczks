@@ -18,12 +18,12 @@
 <!--del ett-->
 <section class="left-section">
 
-     <div class="">
+     <div class="container">
         <h1> A. Mirelle Wallgren</h1>
         <hr>
      </div>
 
-    <div class="">
+    <div>
         
       <img src="cv-images/profilePic.jpg" alt="profile picture" width="200" height="200">   
     </div>
@@ -33,23 +33,20 @@
     
 
     <div class="row">
-        <br>
-        <hr>
-        <ul>
+        <ul> 
+          <hr>
             <li class="col"> 
                 <button class="btn btn-primary">
                     <i class="fa-brands fa-instagram fa-2x"></i> 
                     <a href="https://instagram.com/aleczks" target="_blank">Instagram</a>
                 </button>
             </li>
-            <!--
-                <li class="col">
+            <li class="col">
                 <button class="btn btn-primary">
                     <i class="fa-regular fa-envelope fa-2x"></i>
                     <a href="https://mailto: wallgren.mirelle@gmail.com" target="_blank">Email</a>
                 </button>
             </li>
-            -->
             <li class="col">
                 <button class="btn btn-primary">
                     <i class="fa-brands fa-github fa-2x"></i>
@@ -104,70 +101,83 @@
 
 <!--del två-->
 
-<section class="container right-section">
+<section class="right-section">
 
-    <div class="education container"><ul>
-        <h2>Education</h2>
-            <li>
-                <header>Bryggeriets Gymnasium, Malmö</header>
-                    <p>Graduated in <datetime=2017>2017</datetime></p>
-            </li>
-            <li>
-                <header>Blockchain Developer</header>
-                    <p>Medieinstitutet, Stockholm (distans) <br>
-                    <datetime=2022>2022/09 to current</datetime></p>
-            </li>
-            <li>
-                <header>Grundkurs Python</header>
-                <p>Medborgarskolan, Lund (distans) <br>
-                <datetime=2020>2020</datetime></p>
-            </li>
-            <li>
-                <header>Programmering 1 Java</header>
-                    <p>Värnhemsskolans Komvux, Malmö <br>
-                    <datetime=2022-04>2022/04 - 2022/05</datetime></p>
-            </li>
-    </ul>
-</div>
+    <div class="education container">
+        
+        <ul>
+            <br>
+            <h2>Education</h2>
+            <li><header>Blockchain Developer</header></li>
+            <li>Medieinstitutet, Stockholm (remote)</li>
+            <li><datetime=2022>2022/09 to<span class="current">current</span></datetime></li>
+        </ul>
+        <ul>
+            <li><header>Programming 1, Java</header></li>
+            <li>Värnhemsskolans Komvux, Malmö</li>
+            <li><datetime=2022-04>2022/04 - 2022/05</datetime></li>
+        </ul>
+        
+        <ul>
+            <li><header>Basic course, Python</header></li>
+            <li>Medborgarskolan, Lund </li>
+            <li><datetime=2020>2020</datetime></li>
+        </ul>
+         <ul>            
+            <li><header>Social studies and Behavioral Science</header></li>
+            <li>Bryggeriets Gymnasium, Malmö</li>
+            <li>Graduated in <datetime=2017>2017</datetime></li>
+        </ul>
+    </div>
 
 
 <div class="work container">
-    <ul>
-        <h2>Work / Experience</h2>
-        <li>
-            <header>Administrative Assistant</header>
-                <p>Swedish Migration Agency 
-                    <br>
-                     <datetime=2016-06>2016/06</datetime>-<datetime=2017-09>2017/09</datetime></p>
-                <p></p>
-
-        </li>
-        <li>
-            <header>Social Media Scheduler</header>
-                <p><a href="https://tohimwithlove.com" target="_blank">To Him With Love</a> 
-                    <br>
-                     <datetime=2021>2021/12 to current</datetime></p>
-                <p></p>
-        </li>
-        <li>
-            <header>Illustrator</header>
-                <p><a href="https://instagram.com/aleczks" target="_blank">Independent Artist</a>
-                    <br>
-                     <datetime=2020>2020 to 2022</datetime></p>
-                <p></p>
-        </li>
-        <li>
-            <header>Volonteering</header>
-                <p>Soppkök Malmö 
-                    <br>
-                     <datetime=2016-06>2016/06</datetime>-<datetime=2017-09>2017/09</datetime></p>
-                <p>Matmissionen Malmö <br><datetime=2022>2022 to current</datetime></p>
-        </li>
+    
+    <ul><h2>Work / Experience</h2>
+       <li><header>Volonteer work</header></li>
+       <li>Matmissionen Malmö</li>
+       <li><datetime=2022>2022 to<span class="current">current</span></datetime></li>  
+       <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        repellendus expedita eos consectetur! At, totam.
+       </p>
     </ul> 
+    <ul> 
+        <li><header>Illustrator</header></li>
+        <li><a class="low-key-link" href="https://instagram.com/aleczks" target="_blank">Freelance / Artist</a><li>
+        <li><datetime=2020>2020 to<span class="current">current</span></datetime></li>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Inventore itaque.
+        </p>
+    </ul>
+    <ul>
+        <li><header>Social Media Scheduler</header></li>
+        <li><a class="low-key-link" href="https://tohimwithlove.com" target="_blank">To Him With Love</a> </li>
+        <li><datetime=2021>2021/12 to<span class="current">current</span></datetime></li>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            At assumenda cum iste ipsum labore,
+            repellendus expedita eos consectetur! At, totam.
+        </p>
+    </ul>
+    <ul>       
+        <li><header>Administrative Assistant</header></li>
+        <li>Swedish Migration Agency </li>
+        <li><datetime=2016-06>2016/06</datetime>-<datetime=2017-09>2017/09</datetime></li>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            At assumenda cum iste ipsum labore,
+            repellendus expedita eos consectetur! At, totam.
+        </p>
+    </ul>
+
   </div>
+ </section>
+</section>
 
 <!--del tre -->
-
+<section class="last-section">
 <div class="about-me container">
     <h3>Summary / About me </h3>
     <p> 
@@ -199,6 +209,12 @@
 </div>
 </section>
 
+<div>
+    <footer>
+        Copyright&trade;
+        <p>&copy; There's nothing on this page worth getting sued over.</p>
+    </footer>
+</div>
 
 </main>
 </body>
